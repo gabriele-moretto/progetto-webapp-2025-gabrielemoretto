@@ -1,6 +1,6 @@
 # Progetto App Web Moretto Gabriele
 
-
+Progetto di uno store di vinili
 
 ## Requisiti
 
