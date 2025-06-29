@@ -1,0 +1,27 @@
+body {
+  background-color: #f2efe8;
+  font-family: Helvetica;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+h2 {
+  width: 100%;
+  
+  font-family: fantasy;
+  text-align: center;
+  font-size: 2rem;
+  letter-spacing: 2.5px;
+
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+
+  margin-top: 0.5rem;
+  margin-bottom: 0.8rem;
+
+  background-image: linear-gradient(to right, rgb(245, 245, 65, 0.1), rgb(245, 245, 65, 1), rgb(245, 245, 65, 0.1));
+}
+
+a {
+  text-decoration: none;
+}

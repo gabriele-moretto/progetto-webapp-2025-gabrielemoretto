@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Progetto App Web</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/carousel.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/top_container.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+    <script src="client.js"></script>
+</head>
+
+<body onload="init()">
+    <header>
+    <div>
+        <a class="top-logo" href="index.html">Vinyl Store</a>
+    </div>  
+    <nav class="site-navigation">
+        <ul>
+            <li><a href="./pages/cart.html"><img src="img/cart.svg" alt=""></a></li>
+            <li><a href="#"><img src="img/user.svg" alt=""></a></li>
+            <li><a href="#"><img src="img/message.svg" alt=""></a></li>
+        </ul>
+    </nav>
+    </header>
+
+    <main>
+        <section class="main-image">
+            <div class="top-container">
+                <div class="top-disc-feature">
+                    <p style="font-family: fantasy; font-size: 2rem;">Top disc:</p>
+                    <div class="top-disc-info">
+                        <p class="top-disc-feature" id="top-artist-1"><strong>Artist: </strong>Artist</p>
+                        <p class="top-disc-feature" id="top-title-1"><strong>Title: </strong>Title</p>
+                    </div>
+                </div>
+                <div class="top-disc-image">
+                    <a href="./pages/disc.html" id="top-ref-1">
+                        <img src="img/cover.jpg" alt="" id="top-cover-1">
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="top-discs-carousel">
+        <h2>Best sellers</h2>
+        <div class="carousel-container">
+            <div class="vinyl-card">
+                <a href="./pages/disc.html" id="top-ref-2">
+                    <img src="img/cover.jpg" alt="" id="top-cover-2">
+                    <p id="top-title-2">Title</p>
+                    <p id="top-artist-2">Artist</p>
+                </a>
+                <button id="button-2" name="id" onclick="addNewToCart(name)">Add to cart</button>
+            </div>
+
+            <div class="vinyl-card">
+                <a href="./pages/disc.html" id="top-ref-3">
+                    <img src="img/cover.jpg" alt="" id="top-cover-3">
+                    <p id="top-title-3">Title</p>
+                    <p id="top-artist-3">Artist</p>
+                </a>
+                <button id="button-3" name="id" onclick="addNewToCart(name)">Add to cart</button>
+            </div>
+
+            <div class="vinyl-card">
+                <a href="./pages/disc.html" id="top-ref-4">
+                    <img src="img/cover.jpg" alt="" id="top-cover-4">
+                    <p id="top-title-4">Title</p>
+                    <p id="top-artist-4">Artist</p>
+                </a>
+                <button id="button-4" name="id" onclick="addNewToCart(name)">Add to cart</button>
+            </div>
+
+            <div class="vinyl-card">
+                <a href="./pages/disc.html" id="top-ref-5">
+                    <img src="img/cover.jpg" alt="" id="top-cover-5">
+                    <p id="top-title-5">Title</p>
+                    <p id="top-artist-5">Artist</p>
+                </a>
+                <button id="button-5" name="id" onclick="addNewToCart(name)">Add to cart</button>
+            </div>
+
+            <div class="vinyl-card">
+                <a href="./pages/disc.html" id="top-ref-6">
+                    <img src="img/cover.jpg" alt="" id="top-cover-6">
+                    <p id="top-title-6">Title</p>
+                    <p id="top-artist-6">Artist</p>
+                </a>
+                <button id="button-6" name="id" onclick="addNewToCart(name)">Add to cart</button>
+            </div>
+
+            <div class="vinyl-card">
+                <a href="./pages/disc.html" id="top-ref-7">
+                    <img src="img/cover.jpg" alt="" id="top-cover-7">
+                    <p id="top-title-7">Title</p>
+                    <p id="top-artist-7">Artist</p>
+                </a>
+                <button id="button-7"name="id" onclick="addNewToCart(name)">Add to cart</button>
+            </div>
+
+        </div>
+        </section>
+
+        <section class="random-discs-carousel">
+        <h2>Also available</h2>
+        <div class="carousel-container">
+            <div class="vinyl-card">
+                <a href="./pages/disc.html" id="rand-ref-1">
+                    <img src="img/cover.jpg" alt="" id="rand-cover-1">
+                    <p id="rand-title-1">Title</p>
+                    <p id="rand-artist-1">Artist</p>
+                </a>
+                <button id="button-rand-1" name="id" onclick="addNewToCart(name)">Add to cart</button>
+            </div>
+
+            <div class="vinyl-card">
+                <a href="./pages/disc.html" id="rand-ref-2">
+                    <img src="img/cover.jpg" alt="" id="rand-cover-2">
+                    <p id="rand-title-2">Title</p>
+                    <p id="rand-artist-2">Artist</p>
+                </a>
+                <button id="button-rand-2" name="id" onclick="addNewToCart(name)">Add to cart</button>
+            </div>
+
+            <div class="vinyl-card">
+                <a href="./pages/disc.html" id="rand-ref-3">
+                    <img src="img/cover.jpg" alt="" id="rand-cover-3">
+                    <p id="rand-title-3">Title</p>
+                    <p id="rand-artist-3">Artist</p>
+                </a>
+                <button id="button-rand-3" name="id" onclick="addNewToCart(name)">Add to cart</button>
+            </div>
+
+            <div class="vinyl-card">
+                <a href="./pages/disc.html" id="rand-ref-4">
+                    <img src="img/cover.jpg" alt="" id="rand-cover-4">
+                    <p id="rand-title-4">Title</p>
+                    <p id="rand-artist-4">Artist</p>
+                </a>
+                <button id="button-rand-4" name="id" onclick="addNewToCart(name)">Add to cart</button>
+            </div>
+
+            <div class="vinyl-card">
+                <a href="./pages/disc.html" id="rand-ref-5">
+                    <img src="img/cover.jpg" alt="" id="rand-cover-5">
+                    <p id="rand-title-5">Title</p>
+                    <p id="rand-artist-5">Artist</p>
+                </a>
+                <button id="button-rand-5" name="id" onclick="addNewToCart(name)">Add to cart</button>
+            </div>
+
+            <div class="vinyl-card">
+                <a href="./pages/disc.html">
+                    <img src="img/cover.jpg" alt="" id="rand-cover-6">
+                    <p id="rand-title-6">Title</p>
+                    <p id="rand-artist-6">Artist</p>
+                </a>
+                <button id="button-rand-6" name="id" onclick="addNewToCart(name)">Add to cart</button>
+            </div>
+
+        </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-main">
+            <div>
+                <p></p>
+                <p>Moretto Gabriele</p>
+                <p>© 2025 VinylStore</p>
+            </div>
+            <div>
+                <p></p>
+                <p>Progetto del corso di Applicazioni Web</p>
+                <p>A.A. 2024/2025</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

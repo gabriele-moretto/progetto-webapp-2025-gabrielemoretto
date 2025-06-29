@@ -1,0 +1,87 @@
+.carousel-container {
+  justify-content: center;
+  width: 100%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  gap: 2rem;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+}
+
+
+.top-discs-carousel {
+  align-content: center;
+}
+
+.vinyl-card {
+  width: 12rem;
+  height: 16rem;
+  background-color: #fafafa;
+  border-color: #222222;
+
+  box-shadow: 5px 5px 5px 5px black;
+
+  border-radius: 2rem;
+
+  padding: 1rem;
+
+  display: flex;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.vinyl-card img {
+  width: 80%;
+  border-radius: 1.5rem;
+}
+
+.vinyl-card a {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.vinyl-card p {
+  color: #222222;
+  font-weight: bold;
+  font-size: 1em;
+  text-align: center;
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+
+  width: 90%;
+}
+
+.vinyl-card a:nth-of-type(2) {
+  font-weight: normal;
+}
+
+.vinyl-card button {
+  border-radius: 0.8rem;
+  height: 2.5rem;
+  width: 10rem;
+
+  font-size: 1rem;
+  font-weight: bold;
+  color: black;
+
+  background-color: rgb(245, 245, 65);
+  border-color: rgb(255, 230, 0);
+}

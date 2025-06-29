@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="149.5871mm"
+   height="149.58711mm"
+   viewBox="0 0 149.5871 149.58711"
+   version="1.1"
+   id="svg5"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2" />
+  <g
+     id="layer1"
+     transform="translate(-30.206448,-73.706449)">
+    <circle
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.2;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path788"
+       cx="105"
+       cy="148.5"
+       r="74.69355" />
+    <circle
+       style="fill:#fd8f00;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.2;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path2624"
+       cx="105"
+       cy="148.5"
+       r="18.451612" />
+    <ellipse
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.0325568;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path1776"
+       cx="105"
+       cy="148.5"
+       rx="2.2103939"
+       ry="2.2259965" />
+    <g
+       id="g7073"
+       transform="rotate(90,114.67883,120.8595)">
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:25.4px;font-family:Candara;-inkscape-font-specification:'Candara, Bold';text-align:center;letter-spacing:3.175px;writing-mode:vertical-lr;text-orientation:upright;text-anchor:middle;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.2;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+         id="text2688"
+         transform="translate(28.741943,10.5)"><textPath
+           xlink:href="#path4042"
+           startOffset="50%"
+           id="textPath5614"><tspan
+             id="tspan2686"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:25.4px;font-family:Arial;-inkscape-font-specification:'Arial Bold';writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.2">Vinyl Store</tspan></textPath></text>
+      <ellipse
+         style="display:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.188625;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+         id="path4042"
+         cx="115.5"
+         cy="119.75806"
+         rx="46.006805"
+         ry="45.671101" />
+    </g>
+  </g>
+</svg>

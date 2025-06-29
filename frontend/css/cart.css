@@ -1,0 +1,165 @@
+section {
+   width: 100%;
+   min-height: 30rem;
+
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.item-container {
+   width: 60%;
+   min-height: 5rem;
+
+   margin-top: 5rem;
+
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+
+   padding-top: 0.5rem;
+   padding-bottom: 0.5rem;
+   padding-left: 0.5rem;
+   padding-right: 0.5rem;
+
+   border-radius: 3rem;
+   background-color: #fafafa;
+   border-color: #222222;
+
+   box-shadow: 5px 5px 5px 5px black;
+}
+
+.item {
+   height: 5rem;
+   width: 100%;
+
+   margin-top: 1rem;
+   margin-bottom: 1rem;
+
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+}
+
+.item hr {
+   width: 100%;
+   height: 2px;
+   margin-top: 0.5rem;
+   margin-bottom: 0.5rem;
+
+   color: black;
+}
+
+.disk {
+   height: 100%;
+   width: 100%;
+
+   display: flex;
+   flex-direction: row;
+}
+
+.image-div {
+   width: 20%;
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.image-div img {
+   height: 90%;
+   border-radius: 1.5rem;
+}
+
+.text-div {
+   width: 50%;
+
+   display: flex;
+   flex-direction: column;
+   align-items: start;
+   justify-content: center;
+}
+
+.text-div p {
+   width: 100%;
+   
+   margin-top: 0.2rem;
+   margin-bottom: 0.2rem;
+}
+
+.title {
+   font-family: fantasy;
+   font-size: 1.8rem;
+   letter-spacing: 2.5px;
+   
+   white-space: nowrap;
+   overflow: hidden;
+   text-overflow: ellipsis;
+}
+
+.button-div {
+   width: 30%;
+   height: 100%;
+
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.button-div div {
+   height: 100%;
+
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.button-div button {
+   width: 3rem;
+   height: 3rem;
+
+   background-color: rgb(245, 245, 65);
+   color: black;
+   box-shadow: 2px 2px 2px 2px black;
+
+   text-align: center;
+   text-decoration: none;
+   font-size: 2rem;
+
+   border-radius: 50%;
+}
+
+.button-div p {
+   font-family: Arial;
+   font-size: 1.5rem;  
+   text-align: center;
+
+   margin: 0.2rem;
+}
+
+.button-div div button{
+   font-size: 1.5rem;
+}
+
+.void_cart {
+   text-align: center;
+   font-family: fantasy;
+   font-size: 2rem;
+}
+
+.proceed_to_checkout {
+   width: 30%;
+   height: 4rem;
+
+   margin-top: 2rem;
+
+   font-family: fantasy;
+   font-size: 1.5rem;  
+   text-align: center;
+
+   background-color: rgb(245, 245, 65);
+   color: black;
+   box-shadow: 2px 2px 2px 2px black;
+   border-radius: 1rem;
+}

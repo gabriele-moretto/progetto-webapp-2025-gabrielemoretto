@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Progetto App Web</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/header.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
+    <link rel="stylesheet" href="../css/disc_box.css" />
+    <script defer src="../../client.js"></script>
+    <script defer src="../js/init.js"></script>
+</head>
+
+<body onload="init_disc_id()">
+    <header>
+    <div>
+        <a class="top-logo" href="../../index.html">Vinyl Store</a>
+    </div>  
+    <nav class="site-navigation">
+        <ul>
+            <li><a href="../pages/cart.html"><img src="../img/cart.svg" alt=""></a></li>
+            <li><a href="#"><img src="../img/user.svg" alt=""></a></li>
+            <li><a href="#"><img src="../img/message.svg" alt=""></a></li>
+        </ul>
+    </nav>
+    </header>
+
+    <main>
+        <section>
+            <div class="container">
+                <div class="img-container">
+                    <img src="../img/cover.jpg" alt="" id="cover">
+                </div>
+                <div class="features-container">
+                    <p id="title">Title</p>
+                    <p id="artist">Artist</p>
+                    <button id="add_to_cart" name="id" onclick="addNewToCart(name)">Add to cart</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-main">
+            <div>
+                <p></p>
+                <p>Moretto Gabriele</p>
+                <p>© 2025 VinylStore</p>
+            </div>
+            <div>
+                <p></p>
+                <p>Progetto del corso di Applicazioni Web</p>
+                <p>A.A. 2024/2025</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
